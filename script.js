@@ -16,3 +16,5 @@ const firstRecurringCharacter = (input) => {
 console.log(firstRecurringCharacter([2, 5, 1, 2, 3, 5, 1, 2, 4])); // 2
 console.log(firstRecurringCharacter([2, 3, 4, 5])); // undefined
 console.log(firstRecurringCharacter([2, 1, 1, 3, 5, 1, 2, 4])); // 1
+
+// La méthode find() renvoie la valeur du premier élément trouvé dans le tableau qui respecte la condition donnée par la fonction de test passée en argument. Sinon, la valeur undefined est renvoyée.
